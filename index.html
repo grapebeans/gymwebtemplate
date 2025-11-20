@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Local gym offering personal training, group classes, and flexible memberships." />
+    <title>Be Strong Gym — Get Stronger. Feel Better. Start Today.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#hero">Skip to main content</a>
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <div class="logo">
+          <img src="assets/bestrong-logo.svg" alt="Be Strong The Gym logo" />
+        </div>
+        <nav class="primary-nav" aria-label="Primary">
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#trainers">Trainers</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </nav>
+        <div class="header-ctas">
+          <button class="btn primary" data-open-modal="booking">Book Free Trial</button>
+          <button class="whatsapp-btn" aria-label="Message us on WhatsApp">
+            <span class="icon icon-whatsapp" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 20l1.2-4.4A7 7 0 1112 19a7.1 7.1 0 01-2.7-.54z" stroke="#0F1724" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M10.5 8.5c-.5.3-.8 1.5.8 3.1 1.6 1.6 2.8 1.3 3.1.8" stroke="#0F1724" stroke-width="1.2" stroke-linecap="round"/>
+                <path d="M15 12.4l1.2.5" stroke="#0F1724" stroke-width="1.2" stroke-linecap="round"/>
+              </svg>
+            </span>
+          </button>
+        </div>
+        <button class="hamburger" aria-label="Open menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <div class="mobile-drawer" aria-hidden="true">
+        <button class="btn primary" data-open-modal="booking">Book Free Trial</button>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#trainers">Trainers</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow">Confident • Clean • Approachable</p>
+            <h1>Get Stronger. Feel Better. Start Today.</h1>
+            <p class="subhead">
+              Personal training & group classes for all levels. 7-day trials and flexible timings.
+            </p>
+            <div class="cta-group">
+              <button class="btn primary" data-open-modal="booking">Book Free Trial</button>
+              <a class="btn secondary" href="#programs">View Programs</a>
+            </div>
+            <div class="hero-badge">
+              <span class="icon icon-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <circle cx="12" cy="12" r="8" stroke="#0F1724" stroke-width="1.2" />
+                  <path d="M8 12l2 2 4-4" stroke="#FF6B6B" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <p>No join fee · 7-day trial · ₹399 trial</p>
+            </div>
+          </div>
+          <div class="hero-media">
+            <figure>
+              <img src="https://images.unsplash.com/photo-1579758629938-03607ccdbaba?auto=format&fit=crop&w=900&q=80" alt="Trainer assisting a member during a workout" loading="lazy" />
+              <figcaption>Authentic local studio energy</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <div class="trust-bar" aria-label="Trust signals">
+        <div class="container trust-items">
+          <p><span aria-hidden="true">⭐</span> 4.9 (1200+ reviews)</p>
+          <p><span aria-hidden="true">📍</span> 2 locations — Indiranagar & Koramangala</p>
+          <p><span aria-hidden="true">🕒</span> Open 5:00 AM — 11:00 PM</p>
+          <p><span aria-hidden="true">🔥</span> 3,000+ members</p>
+        </div>
+      </div>
+
+      <section id="benefits" class="section">
+        <div class="container">
+      <header class="section-header">
+        <p class="eyebrow">Why members love Be Strong</p>
+            <h2>Stronger habits, guided support.</h2>
+          </header>
+          <div class="card-grid">
+            <article class="card">
+              <span class="icon icon-coach" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <circle cx="12" cy="8" r="3" stroke="#0F1724" stroke-width="1.2"/>
+                  <path d="M6 19c.8-3 3-5 6-5s5.2 2 6 5" stroke="#0F1724" stroke-width="1.2" stroke-linecap="round"/>
+                </svg>
+              </span>
+              <h3>Personal Coaches</h3>
+              <p>Certified trainers & tailored plans with weekly check-ins.</p>
+            </article>
+            <article class="card">
+              <span class="icon icon-clock" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <circle cx="12" cy="12" r="8" stroke="#0F1724" stroke-width="1.2"/>
+                  <path d="M12 8v4l2 2" stroke="#0F1724" stroke-width="1.2" stroke-linecap="round"/>
+                </svg>
+              </span>
+              <h3>Flexible Timings</h3>
+              <p>Sessions running from 5 AM to 11 PM for every schedule.</p>
+            </article>
+            <article class="card">
+              <span class="icon icon-chart" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M6 15l3-4 3 3 4-6 2 2" stroke="#0F1724" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M5 19h14" stroke="#0F1724" stroke-width="1.2" stroke-linecap="round"/>
+                </svg>
+              </span>
+              <h3>Proven Results</h3>
+              <p>Trackable goals, progress reports, and in-app milestones.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="programs" class="section light-bg">
+        <div class="container">
+          <header class="section-header">
+            <p class="eyebrow">Programs</p>
+            <h2>Choose the format that fits.</h2>
+          </header>
+          <div class="tabs" role="tablist" aria-label="Program tabs">
+            <button class="tab active" role="tab" aria-selected="true" data-tab="personal">Personal Training</button>
+            <button class="tab" role="tab" aria-selected="false" data-tab="group">Group Classes</button>
+            <button class="tab" role="tab" aria-selected="false" data-tab="weight">Weight Loss</button>
+            <button class="tab" role="tab" aria-selected="false" data-tab="yoga">Yoga Flow</button>
+          </div>
+          <div class="tab-panels">
+            <article class="tab-panel active" id="personal" role="tabpanel">
+              <h3>Personal Training</h3>
+              <ul>
+                <li>1:1 coaching with certified strength specialists</li>
+                <li>Custom macro & recovery plans</li>
+                <li>Progress tracking dashboard</li>
+              </ul>
+              <p class="price-note">From ₹3,999 / month</p>
+              <button class="link-btn">Learn more</button>
+            </article>
+            <article class="tab-panel" id="group" role="tabpanel" hidden>
+              <h3>Group Classes</h3>
+              <ul>
+                <li>HIIT, strength circuits, mobility resets</li>
+                <li>Max 12 per class for personal attention</li>
+                <li>Performance leaderboard & accountability</li>
+              </ul>
+              <p class="price-note">From ₹2,499 / month</p>
+              <button class="link-btn">Learn more</button>
+            </article>
+            <article class="tab-panel" id="weight" role="tabpanel" hidden>
+              <h3>Weight Loss Program</h3>
+              <ul>
+                <li>Metabolic conditioning + nutrition guidance</li>
+                <li>Body composition scans every 4 weeks</li>
+                <li>Mindset coaching & habit playbooks</li>
+              </ul>
+              <p class="price-note">From ₹4,999 / month</p>
+              <button class="link-btn">Learn more</button>
+            </article>
+            <article class="tab-panel" id="yoga" role="tabpanel" hidden>
+              <h3>Yoga Flow</h3>
+              <ul>
+                <li>Vinyasa, restorative, and power sessions</li>
+                <li>Breathwork & mindfulness guidance</li>
+                <li>Complimentary mat storage & rentals</li>
+              </ul>
+              <p class="price-note">From ₹2,999 / month</p>
+              <button class="link-btn">Learn more</button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="trainers" class="section">
+        <div class="container">
+          <header class="section-header">
+            <p class="eyebrow">Meet your trainers</p>
+            <h2>Coaches who actually listen.</h2>
+          </header>
+          <div class="trainer-grid" role="list">
+            <article class="trainer-card" role="listitem">
+              <img src="https://images.unsplash.com/photo-1549060279-7e168fcee0c2?auto=format&fit=crop&w=400&q=80" alt="Coach Mira, strength specialist" loading="lazy" />
+              <h3>Mira Rao</h3>
+              <p>Strength & Conditioning · CSCS</p>
+              <span class="badge">Powerlifting</span>
+            </article>
+            <article class="trainer-card" role="listitem">
+              <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=400&q=80" alt="Coach Dev, mobility expert" loading="lazy" />
+              <h3>Dev Khanna</h3>
+              <p>Mobility & Recovery · FRC</p>
+              <span class="badge">Mobility</span>
+            </article>
+            <article class="trainer-card" role="listitem">
+              <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=400&q=80" alt="Coach Tara, metabolic conditioning" loading="lazy" />
+              <h3>Tara Singh</h3>
+              <p>Metabolic Conditioning · CF-L2</p>
+              <span class="badge">HIIT</span>
+            </article>
+          </div>
+          <div class="center">
+            <button class="btn secondary" data-open-modal="booking">Book a trainer consultation</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="schedule" class="section light-bg">
+        <div class="container schedule-grid">
+          <header class="section-header">
+            <p class="eyebrow">Class schedule</p>
+            <h2>Pick a slot. Walk in ready.</h2>
+          </header>
+          <div class="schedule-table" role="table" aria-label="Weekly schedule">
+            <div class="schedule-column" role="rowgroup">
+              <h3>Mon – Fri</h3>
+              <p>5:30 AM • Strength Circuit</p>
+              <p>7:00 PM • Sweat & Stretch</p>
+            </div>
+            <div class="schedule-column" role="rowgroup">
+              <h3>Saturday</h3>
+              <p>8:00 AM • Partner HIIT</p>
+              <p>5:00 PM • Yoga Restore</p>
+            </div>
+            <div class="schedule-column" role="rowgroup">
+              <h3>Sunday</h3>
+              <p>9:00 AM • Mobility Lab</p>
+              <p>4:00 PM • Community Run</p>
+            </div>
+          </div>
+          <form class="booking-form" aria-label="Quick booking form">
+            <label>
+              Program
+              <select>
+                <option>Personal Training</option>
+                <option>Group Classes</option>
+                <option>Weight Loss</option>
+                <option>Yoga Flow</option>
+              </select>
+            </label>
+            <label>
+              Preferred date
+              <input type="date" />
+            </label>
+            <button type="button" class="btn primary" data-open-modal="booking">Book Slot</button>
+            <p class="form-note">Walk-ins welcome · WhatsApp for instant confirmation</p>
+          </form>
+        </div>
+      </section>
+
+      <section id="pricing" class="section">
+        <div class="container">
+          <header class="section-header">
+            <p class="eyebrow">Membership options</p>
+            <h2>Plans that flex with you.</h2>
+          </header>
+          <div class="pricing-grid">
+            <article class="price-card">
+              <h3>Starter</h3>
+              <p class="price">₹1,999<span>/mo</span></p>
+              <ul>
+                <li>Gym floor access</li>
+                <li>2 classes / week</li>
+                <li>Progress check-ins</li>
+              </ul>
+              <button class="btn secondary" data-open-modal="booking">Choose Plan</button>
+            </article>
+            <article class="price-card featured">
+              <span class="tag">Most popular</span>
+              <h3>Standard</h3>
+              <p class="price">₹3,999<span>/mo</span></p>
+              <ul>
+                <li>Unlimited classes</li>
+                <li>Nutrition toolkit</li>
+                <li>Recovery lounge</li>
+              </ul>
+              <button class="btn primary" data-open-modal="booking">Choose Plan</button>
+            </article>
+            <article class="price-card">
+              <h3>Premium</h3>
+              <p class="price">₹6,999<span>/mo</span></p>
+              <ul>
+                <li>Personal coaching</li>
+                <li>Bi-weekly assessments</li>
+                <li>Priority booking</li>
+              </ul>
+              <button class="btn secondary" data-open-modal="booking">Choose Plan</button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="reviews" class="section light-bg">
+        <div class="container">
+          <header class="section-header">
+            <p class="eyebrow">What members say</p>
+            <h2>Social proof that matters.</h2>
+          </header>
+          <div class="reviews-grid">
+            <article>
+              <p>“Be Strong made fitness enjoyable again. The trainers remember your goals.”</p>
+              <span>— Ananya, Product Manager</span>
+            </article>
+            <article>
+              <p>“I lost 8kg in 3 months without burnout. The accountability is unmatched.”</p>
+              <span>— Rohit, Photographer</span>
+            </article>
+            <article>
+              <p>“The community keeps me coming back. Love the early morning crew.”</p>
+              <span>— Claire, Architect</span>
+            </article>
+          </div>
+          <a class="link-btn" href="https://maps.google.com" target="_blank" rel="noopener">See 100+ Google reviews</a>
+        </div>
+      </section>
+
+      <section id="faq" class="section">
+        <div class="container">
+          <header class="section-header">
+            <p class="eyebrow">FAQ</p>
+            <h2>Answers before you visit.</h2>
+          </header>
+          <div class="accordion" role="region" aria-label="Frequently asked questions">
+            <div class="accordion-item">
+              <button aria-expanded="false">
+                <span>Do you offer a trial?</span>
+                <span class="icon icon-plus" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M12 6v12M6 12h12" stroke="#0F1724" stroke-width="1.5" stroke-linecap="round"/>
+                  </svg>
+                </span>
+              </button>
+              <div class="accordion-panel">
+                <p>Yes. A 7-day trial is ₹399 and includes full access plus a coaching session.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button aria-expanded="false">
+                <span>What are the timings?</span>
+                <span class="icon icon-plus" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M12 6v12M6 12h12" stroke="#0F1724" stroke-width="1.5" stroke-linecap="round"/>
+                  </svg>
+                </span>
+              </button>
+              <div class="accordion-panel">
+                <p>We open at 5:00 AM and close at 11:00 PM daily with classes throughout.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button aria-expanded="false">
+                <span>What should I bring?</span>
+                <span class="icon icon-plus" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M12 6v12M6 12h12" stroke="#0F1724" stroke-width="1.5" stroke-linecap="round"/>
+                  </svg>
+                </span>
+              </button>
+              <div class="accordion-panel">
+                <p>Carry a towel, water bottle, and ID. We provide mats, bands, and lockers.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button aria-expanded="false">
+                <span>Cancellation policy?</span>
+                <span class="icon icon-plus" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M12 6v12M6 12h12" stroke="#0F1724" stroke-width="1.5" stroke-linecap="round"/>
+                  </svg>
+                </span>
+              </button>
+              <div class="accordion-panel">
+                <p>Monthly plans need 30 days notice. Trials can be rescheduled within 7 days.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta-banner">
+        <div class="container cta-card">
+          <div>
+            <h2>Ready to try? Book your free trial today.</h2>
+            <p>Limited slots each week. Lock yours in under 60 seconds.</p>
+          </div>
+          <div class="cta-actions">
+            <button class="btn primary" data-open-modal="booking">Book Free Trial</button>
+            <a class="btn secondary" href="https://wa.me/15551234567" target="_blank" rel="noopener">Call / WhatsApp</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="logo">
+            <img src="assets/bestrong-logo.svg" alt="Be Strong The Gym logo" />
+          </div>
+          <p>Strength studio focused on real people, real progress.</p>
+          <p>12th Main Rd, Indiranagar, Bengaluru</p>
+        </div>
+        <div>
+          <h3>Navigate</h3>
+          <ul>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#trainers">Trainers</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#schedule">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="tel:+919876543210">+91 98765 43210</a></li>
+            <li><a href="https://wa.me/919876543210" target="_blank" rel="noopener">WhatsApp us</a></li>
+            <li><a href="mailto:hello@pulselab.fit">hello@BeStrong</a></li>
+            <li><a href="https://maps.google.com" target="_blank" rel="noopener">View on Maps</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="legal">
+        <p>Privacy · Terms · © <span id="year"></span> Be Strong The Gym</p>
+      </div>
+    </footer>
+
+    <button class="floating-cta btn primary" data-open-modal="booking">Book Free Trial</button>
+
+    <div class="modal" id="booking-modal" role="dialog" aria-modal="true" aria-labelledby="booking-title" hidden>
+      <div class="modal-content">
+        <button class="modal-close" aria-label="Close booking form">&times;</button>
+        <h2 id="booking-title">Book your free trial</h2>
+        <p>We’ll confirm via WhatsApp or email within 10 minutes.</p>
+        <form class="modal-form">
+          <label>
+            Full name
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            Phone number
+            <input type="tel" name="phone" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            Program
+            <select name="program">
+              <option>Personal Training</option>
+              <option>Group Classes</option>
+              <option>Weight Loss</option>
+              <option>Yoga Flow</option>
+            </select>
+          </label>
+          <label>
+            Preferred date
+            <input type="date" name="date" />
+          </label>
+          <button type="submit" class="btn primary">Submit & confirm</button>
+          <p class="form-note">Or message us directly on WhatsApp.</p>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
